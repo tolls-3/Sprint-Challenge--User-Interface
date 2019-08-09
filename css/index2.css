@@ -69,7 +69,6 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    border:2px solid red;
     display:flex;
     flex-direction:column;
     justify-content: space-evenly;
@@ -129,7 +128,7 @@ p {
 .image2{
         margin-top:10px;
         margin-bottom: 10px;
-        border:2px solid blue;
+        
         width:100%;
     }
 
