@@ -105,6 +105,10 @@ p {
     margin-right: 50px;
 }
 
+.image{
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
