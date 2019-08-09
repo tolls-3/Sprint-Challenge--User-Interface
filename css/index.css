@@ -125,23 +125,23 @@ p {
 }
 
 #color1{
-    background-color:darkcyan;
+    background-color:teal;
 }
 #color2{
     background-color:gold;
 }
 #color3{
-    background-color: lightslategray;
+    background-color: cadetblue;
 }
 #color4{
-    background-color:tomato;
+    background-color:coral;
 }
 
 #color5{
     background-color:crimson ;
 }
 #color6{
-    background-color:darkgreen;
+    background-color:forestgreen;
 }
 
 #color7{
@@ -155,7 +155,7 @@ p {
     background-color:indigo);
 }
 #color10{
-    background-color:royalblue;
+    background-color:dodgerblue;
 }
 
 .middle-content h2 {
