@@ -111,17 +111,93 @@ p {
         color:black;
     }
 
-.middle{
-        
-        display:flex;
-        flex-direction: column;
-        flex-wrap:wrap;
-    }
-
-.strategy{
-        border: 2px solid red;
+.top{
+        /*border:2px solid red;*/
         display:flex;
         flex-direction: row;
         flex-wrap:wrap;
+        border-bottom: 1px dashed black;
+        border-top: 1px dashed black;
+        justify-content: space-between;
+        margin-bottom: 20px;
     }
+
+.top .about{
+    /*border:2px solid green;*/
+    width:48%;   
+    margin-top:20px;
+}
+
+.middle{
+    /*border:2px solid red;*/
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    border-bottom: 1px dashed black;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.middle .places{
+/*border:2px solid green;*/
+width:48%;   
+}
+
+img, p{
+    margin-bottom: 10px;
+
+}
+
+.about nav a{
+    width: 35.5%;
+    height: 30px;
+    background: white;
+    border: 1.5px solid black;
+    margin: 20px 0%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20%;
+    padding: 20px;
+    
+    
+}
+
+.places nav a{
+    width: 35.5%;
+    height: 30px;
+    background: white;
+    border: 1.5px solid black;
+    margin: 20px 0%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20%;
+    padding: 20px;
+    
+    
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
 
