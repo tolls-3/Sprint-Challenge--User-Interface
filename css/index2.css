@@ -117,6 +117,7 @@ p {
         border-top: 1px dashed black;
         justify-content: space-between;
         margin-bottom: 20px;
+
     }
 
 .top .about{
@@ -146,7 +147,7 @@ width:48%;
     margin-left: 20px;
 }
 
-p{
+p,h2{
     margin-bottom: 10px;
     margin-top:10px;
 
@@ -161,12 +162,10 @@ p{
     color: black;
     display: flex;
     align-items: center;
-    justify-content: center;
     text-decoration: none;
     border-radius: 10px;
     padding: 20px;
-    
-    
+
 }
 
 .places nav a{
@@ -178,12 +177,10 @@ p{
     color: black;
     display: flex;
     align-items: center;
-    justify-content: center;
     text-decoration: none;
     border-radius: 10px;
     padding: 20px;
-    
-    
+        
 }
 
 footer {
