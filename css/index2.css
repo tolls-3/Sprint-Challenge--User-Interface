@@ -57,21 +57,21 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-family: 'Rubik', sans-serif;
+    }
 
 p {
-    line-height: 1.4;
+       line-height: 1.4;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
-    display:flex;
-    flex-direction:column;
-    justify-content: space-evenly;
+        width: 800px;
+        margin: 0 auto;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-evenly;
     }
 
 .panel{
@@ -100,7 +100,6 @@ p {
 .image{
         margin-top:10px;
         margin-bottom: 10px;
-        
         width:100%;
     }
 
@@ -116,25 +115,13 @@ p {
         
         display:flex;
         flex-direction: column;
+        flex-wrap:wrap;
     }
 
 .strategy{
-        
+        border: 2px solid red;
         display:flex;
-        flex-direction: column;
-       
+        flex-direction: row;
+        flex-wrap:wrap;
     }
 
-.image2{
-        margin-top:10px;
-        margin-bottom: 10px;
-        
-        width:100%;
-    }
-
-.strategy2{
-        margin:10px;
-        
-
-    }
-    
