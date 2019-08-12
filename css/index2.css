@@ -82,6 +82,14 @@ p {
     align-items: baseline;
 }
 
+/* @media(max-width:800px){
+    .panel{
+        flex-direction:row;
+
+    }
+
+} */
+
 .home{
         /*border:2px solid red;*/
         margin-right:20px;

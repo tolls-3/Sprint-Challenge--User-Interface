@@ -82,6 +82,16 @@ p {
     align-items: baseline;
 }
 
+@media(max-width:800px){
+    .panel{
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
 .home{
     /*border:2px solid red;*/
     margin-right:20px;
@@ -105,8 +115,21 @@ p {
     margin-right: 50px;
 }
 
-.image{
-    margin-bottom: 20px;
+@media(max-width:800px){
+    .black{
+        margin-bottom:20px;}
+
+}
+
+.image img{
+    border:2px solid red;
+   max-width:100%;
+   height:auto;
+}
+
+@media(max-width:800px){
+    .image img{
+    max-width:100%;}
 }
 
 .top-content {
