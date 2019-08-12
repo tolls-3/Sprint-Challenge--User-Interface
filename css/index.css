@@ -121,14 +121,14 @@ p {
 
 }
 
-.image2{
+.image{
     border:2px solid red;
    max-width:100%;
    height:auto;
 }
 
 @media(max-width:800px){
-    .image2{
+    .image{
     max-width:500px;}
 }
 
